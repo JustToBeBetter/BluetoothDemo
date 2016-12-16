@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E80B02471DC8763E006CF658 /* HLBLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E80B02461DC8763E006CF658 /* HLBLEManager.m */; };
+		E80B024F1DC87646006CF658 /* HLPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = E80B024A1DC87646006CF658 /* HLPrinter.m */; };
+		E80B02501DC87646006CF658 /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = E80B024C1DC87646006CF658 /* UIImage+Bitmap.m */; };
+		E80B02511DC87646006CF658 /* UIWebView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E80B024E1DC87646006CF658 /* UIWebView+UIImage.m */; };
+		E80B025D1DC8764E006CF658 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E80B02541DC8764E006CF658 /* SVIndefiniteAnimatedView.m */; };
+		E80B025E1DC8764E006CF658 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E80B02561DC8764E006CF658 /* SVProgressAnimatedView.m */; };
+		E80B025F1DC8764E006CF658 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E80B02581DC8764E006CF658 /* SVProgressHUD.bundle */; };
+		E80B02601DC8764E006CF658 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E80B025A1DC8764E006CF658 /* SVProgressHUD.m */; };
+		E80B02611DC8764E006CF658 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E80B025C1DC8764E006CF658 /* SVRadialGradientLayer.m */; };
+		E80B02641DC87670006CF658 /* BLEDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E80B02631DC87670006CF658 /* BLEDetailViewController.m */; };
+		E80B026F1DC881A3006CF658 /* OrderWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = E80B026C1DC881A3006CF658 /* OrderWebController.m */; };
+		E80B02701DC881A3006CF658 /* ShoppingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E80B026E1DC881A3006CF658 /* ShoppingViewController.m */; };
+		E80B02721DC884C4006CF658 /* ico180.png in Resources */ = {isa = PBXBuildFile; fileRef = E80B02711DC884C4006CF658 /* ico180.png */; };
+		E80B02741DC8851D006CF658 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = E80B02731DC8851D006CF658 /* index.html */; };
+		E80F6F0A1DE01C02006A8FFC /* SEPrinterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E80F6F091DE01C02006A8FFC /* SEPrinterManager.m */; };
+		E80F6F0D1DE03D7F006A8FFC /* 110.png in Resources */ = {isa = PBXBuildFile; fileRef = E80F6F0C1DE03D7E006A8FFC /* 110.png */; };
 		E8924B771DBF446B00BC6538 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8924B761DBF446B00BC6538 /* main.m */; };
 		E8924B7A1DBF446B00BC6538 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8924B791DBF446B00BC6538 /* AppDelegate.m */; };
 		E8924B7D1DBF446B00BC6538 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8924B7C1DBF446B00BC6538 /* ViewController.m */; };
@@ -15,6 +31,7 @@
 		E8924B851DBF446B00BC6538 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8924B831DBF446B00BC6538 /* LaunchScreen.storyboard */; };
 		E8924B901DBF446B00BC6538 /* BluetoothDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8924B8F1DBF446B00BC6538 /* BluetoothDemoTests.m */; };
 		E8924B9B1DBF446B00BC6538 /* BluetoothDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E8924B9A1DBF446B00BC6538 /* BluetoothDemoUITests.m */; };
+		E8924BAA1DBF44A900BC6538 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8924BA91DBF44A900BC6538 /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +52,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E80B02441DC8763E006CF658 /* HLBLEConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLBLEConst.h; sourceTree = "<group>"; };
+		E80B02451DC8763E006CF658 /* HLBLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLBLEManager.h; sourceTree = "<group>"; };
+		E80B02461DC8763E006CF658 /* HLBLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLBLEManager.m; sourceTree = "<group>"; };
+		E80B02491DC87646006CF658 /* HLPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLPrinter.h; sourceTree = "<group>"; };
+		E80B024A1DC87646006CF658 /* HLPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLPrinter.m; sourceTree = "<group>"; };
+		E80B024B1DC87646006CF658 /* UIImage+Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bitmap.h"; sourceTree = "<group>"; };
+		E80B024C1DC87646006CF658 /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
+		E80B024D1DC87646006CF658 /* UIWebView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIImage.h"; sourceTree = "<group>"; };
+		E80B024E1DC87646006CF658 /* UIWebView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIImage.m"; sourceTree = "<group>"; };
+		E80B02531DC8764E006CF658 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		E80B02541DC8764E006CF658 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		E80B02551DC8764E006CF658 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		E80B02561DC8764E006CF658 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		E80B02571DC8764E006CF658 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		E80B02581DC8764E006CF658 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		E80B02591DC8764E006CF658 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		E80B025A1DC8764E006CF658 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		E80B025B1DC8764E006CF658 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		E80B025C1DC8764E006CF658 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		E80B02621DC87670006CF658 /* BLEDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDetailViewController.h; sourceTree = "<group>"; };
+		E80B02631DC87670006CF658 /* BLEDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEDetailViewController.m; sourceTree = "<group>"; };
+		E80B026B1DC881A3006CF658 /* OrderWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderWebController.h; sourceTree = "<group>"; };
+		E80B026C1DC881A3006CF658 /* OrderWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderWebController.m; sourceTree = "<group>"; };
+		E80B026D1DC881A3006CF658 /* ShoppingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoppingViewController.h; sourceTree = "<group>"; };
+		E80B026E1DC881A3006CF658 /* ShoppingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoppingViewController.m; sourceTree = "<group>"; };
+		E80B02711DC884C4006CF658 /* ico180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico180.png; sourceTree = "<group>"; };
+		E80B02731DC8851D006CF658 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		E80F6F081DE01C02006A8FFC /* SEPrinterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPrinterManager.h; sourceTree = "<group>"; };
+		E80F6F091DE01C02006A8FFC /* SEPrinterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPrinterManager.m; sourceTree = "<group>"; };
+		E80F6F0B1DE01E4D006A8FFC /* SEBLEConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEBLEConst.h; sourceTree = "<group>"; };
+		E80F6F0C1DE03D7E006A8FFC /* 110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 110.png; sourceTree = "<group>"; };
 		E8924B721DBF446B00BC6538 /* BluetoothDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluetoothDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8924B761DBF446B00BC6538 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8924B781DBF446B00BC6538 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +99,7 @@
 		E8924B961DBF446B00BC6538 /* BluetoothDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BluetoothDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8924B9A1DBF446B00BC6538 /* BluetoothDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BluetoothDemoUITests.m; sourceTree = "<group>"; };
 		E8924B9C1DBF446B00BC6538 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8924BA91DBF44A900BC6538 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8924BAA1DBF44A900BC6538 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +128,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E80B02431DC8763E006CF658 /* HLBluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				E80B02441DC8763E006CF658 /* HLBLEConst.h */,
+				E80B02451DC8763E006CF658 /* HLBLEManager.h */,
+				E80B02461DC8763E006CF658 /* HLBLEManager.m */,
+				E80F6F081DE01C02006A8FFC /* SEPrinterManager.h */,
+				E80F6F091DE01C02006A8FFC /* SEPrinterManager.m */,
+				E80F6F0B1DE01E4D006A8FFC /* SEBLEConst.h */,
+			);
+			path = HLBluetooth;
+			sourceTree = "<group>";
+		};
+		E80B02481DC87646006CF658 /* HLPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				E80B02491DC87646006CF658 /* HLPrinter.h */,
+				E80B024A1DC87646006CF658 /* HLPrinter.m */,
+				E80B024B1DC87646006CF658 /* UIImage+Bitmap.h */,
+				E80B024C1DC87646006CF658 /* UIImage+Bitmap.m */,
+				E80B024D1DC87646006CF658 /* UIWebView+UIImage.h */,
+				E80B024E1DC87646006CF658 /* UIWebView+UIImage.m */,
+			);
+			path = HLPrinter;
+			sourceTree = "<group>";
+		};
+		E80B02521DC8764E006CF658 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E80B02531DC8764E006CF658 /* SVIndefiniteAnimatedView.h */,
+				E80B02541DC8764E006CF658 /* SVIndefiniteAnimatedView.m */,
+				E80B02551DC8764E006CF658 /* SVProgressAnimatedView.h */,
+				E80B02561DC8764E006CF658 /* SVProgressAnimatedView.m */,
+				E80B02571DC8764E006CF658 /* SVProgressHUD-Prefix.pch */,
+				E80B02581DC8764E006CF658 /* SVProgressHUD.bundle */,
+				E80B02591DC8764E006CF658 /* SVProgressHUD.h */,
+				E80B025A1DC8764E006CF658 /* SVProgressHUD.m */,
+				E80B025B1DC8764E006CF658 /* SVRadialGradientLayer.h */,
+				E80B025C1DC8764E006CF658 /* SVRadialGradientLayer.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
 		E8924B691DBF446A00BC6538 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +178,7 @@
 				E8924B8E1DBF446B00BC6538 /* BluetoothDemoTests */,
 				E8924B991DBF446B00BC6538 /* BluetoothDemoUITests */,
 				E8924B731DBF446B00BC6538 /* Products */,
+				E8924BA81DBF44A800BC6538 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +195,26 @@
 		E8924B741DBF446B00BC6538 /* BluetoothDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E80B02521DC8764E006CF658 /* SVProgressHUD */,
+				E80B02481DC87646006CF658 /* HLPrinter */,
+				E80B02431DC8763E006CF658 /* HLBluetooth */,
 				E8924B781DBF446B00BC6538 /* AppDelegate.h */,
 				E8924B791DBF446B00BC6538 /* AppDelegate.m */,
 				E8924B7B1DBF446B00BC6538 /* ViewController.h */,
 				E8924B7C1DBF446B00BC6538 /* ViewController.m */,
+				E80B02621DC87670006CF658 /* BLEDetailViewController.h */,
+				E80B02631DC87670006CF658 /* BLEDetailViewController.m */,
+				E80B026B1DC881A3006CF658 /* OrderWebController.h */,
+				E80B026C1DC881A3006CF658 /* OrderWebController.m */,
+				E80B026D1DC881A3006CF658 /* ShoppingViewController.h */,
+				E80B026E1DC881A3006CF658 /* ShoppingViewController.m */,
+				E80F6F0C1DE03D7E006A8FFC /* 110.png */,
 				E8924B7E1DBF446B00BC6538 /* Main.storyboard */,
 				E8924B811DBF446B00BC6538 /* Assets.xcassets */,
 				E8924B831DBF446B00BC6538 /* LaunchScreen.storyboard */,
 				E8924B861DBF446B00BC6538 /* Info.plist */,
+				E80B02711DC884C4006CF658 /* ico180.png */,
+				E80B02731DC8851D006CF658 /* index.html */,
 				E8924B751DBF446B00BC6538 /* Supporting Files */,
 			);
 			path = BluetoothDemo;
@@ -138,6 +244,14 @@
 				E8924B9C1DBF446B00BC6538 /* Info.plist */,
 			);
 			path = BluetoothDemoUITests;
+			sourceTree = "<group>";
+		};
+		E8924BA81DBF44A800BC6538 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8924BA91DBF44A900BC6538 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +321,7 @@
 				TargetAttributes = {
 					E8924B711DBF446B00BC6538 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = ZM776R35EV;
+						DevelopmentTeam = QW9Z5KHRK8;
 						ProvisioningStyle = Automatic;
 					};
 					E8924B8A1DBF446B00BC6538 = {
@@ -249,7 +363,11 @@
 			files = (
 				E8924B851DBF446B00BC6538 /* LaunchScreen.storyboard in Resources */,
 				E8924B821DBF446B00BC6538 /* Assets.xcassets in Resources */,
+				E80F6F0D1DE03D7F006A8FFC /* 110.png in Resources */,
 				E8924B801DBF446B00BC6538 /* Main.storyboard in Resources */,
+				E80B02741DC8851D006CF658 /* index.html in Resources */,
+				E80B025F1DC8764E006CF658 /* SVProgressHUD.bundle in Resources */,
+				E80B02721DC884C4006CF658 /* ico180.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,9 +392,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80F6F0A1DE01C02006A8FFC /* SEPrinterManager.m in Sources */,
 				E8924B7D1DBF446B00BC6538 /* ViewController.m in Sources */,
+				E80B024F1DC87646006CF658 /* HLPrinter.m in Sources */,
 				E8924B7A1DBF446B00BC6538 /* AppDelegate.m in Sources */,
+				E80B025D1DC8764E006CF658 /* SVIndefiniteAnimatedView.m in Sources */,
 				E8924B771DBF446B00BC6538 /* main.m in Sources */,
+				E80B026F1DC881A3006CF658 /* OrderWebController.m in Sources */,
+				E80B02701DC881A3006CF658 /* ShoppingViewController.m in Sources */,
+				E80B02641DC87670006CF658 /* BLEDetailViewController.m in Sources */,
+				E80B025E1DC8764E006CF658 /* SVProgressAnimatedView.m in Sources */,
+				E80B02501DC87646006CF658 /* UIImage+Bitmap.m in Sources */,
+				E80B02601DC8764E006CF658 /* SVProgressHUD.m in Sources */,
+				E80B02511DC87646006CF658 /* UIWebView+UIImage.m in Sources */,
+				E80B02471DC8763E006CF658 /* HLBLEManager.m in Sources */,
+				E80B02611DC8764E006CF658 /* SVRadialGradientLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,8 +553,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZM776R35EV;
+				DEVELOPMENT_TEAM = QW9Z5KHRK8;
 				INFOPLIST_FILE = BluetoothDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.designbox.BluetoothDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,8 +566,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ZM776R35EV;
+				DEVELOPMENT_TEAM = QW9Z5KHRK8;
 				INFOPLIST_FILE = BluetoothDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.designbox.BluetoothDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -508,6 +640,7 @@
 				E8924BA11DBF446B00BC6538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8924BA21DBF446B00BC6538 /* Build configuration list for PBXNativeTarget "BluetoothDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +649,7 @@
 				E8924BA41DBF446B00BC6538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8924BA51DBF446B00BC6538 /* Build configuration list for PBXNativeTarget "BluetoothDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +658,7 @@
 				E8924BA71DBF446B00BC6538 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
